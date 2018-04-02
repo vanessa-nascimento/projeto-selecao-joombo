@@ -1,0 +1,79 @@
+/* CSS Document */
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto:300,400,700,900');
+
+/* body */
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+}
+
+/* cadastro */
+.logo{
+	width:200px;
+}
+small{
+	font-size:12px;
+}
+.section-conteudo, .section-agradecimento{
+	background:url('../images/teamwork.jpg');
+	background-attachment: fixed;
+}
+.section-conteudo{
+	height:300px;
+}
+.title{
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+}
+.section-conteudo .section-form{
+	background:#fff;
+	padding:40px 20px;
+	-webkit-box-shadow: 1px 1px 26px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 26px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 26px 0px rgba(50, 50, 50, 0.75);
+}
+
+.btn-enviar{
+	padding:15px 25px;
+	font-size:16px;
+	border:none;
+	border-radius:0;
+}
+
+/* página de agradecimento */
+
+.section-agradecimento{
+	height:100%;
+	width: 100%;
+	position: absolute;
+	background-size:cover;
+}
+.section-agradecimento .box{
+	background:rgba(236, 240, 241,0.9);
+	padding:40px;
+	margin-top:50px;
+}
+.section-agradecimento .box h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight:700;
+}
+.section-agradecimento .box h2{
+	font-weight:300;
+}
+
+.section-agradecimento .box .check{
+	width:100px;
+}
+
+.section-agradecimento .box .btn-baixar, .section-agradecimento .box .btn-baixar:hover, .section-agradecimento .box .btn-baixar:focus{
+	background:rgba(39, 174, 96,1.0);
+	padding:15px 35px;
+	font-size:18px;
+	border:none;
+	border-radius:0;
+}
+
